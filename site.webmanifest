@@ -1,0 +1,22 @@
+{
+ "name": "AllFun",
+ "short_name": "AllFun",
+ "description": "Free games, quizzes, puzzles and fun ideas.",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#EEF0FF",
+ "theme_color": "#1F1A4D",
+ "icons": [
+  {
+   "src": "favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  },
+  {
+   "src": "assets/img/icon.svg",
+   "sizes": "512x512",
+   "type": "image/svg+xml",
+   "purpose": "any maskable"
+  }
+ ]
+}
