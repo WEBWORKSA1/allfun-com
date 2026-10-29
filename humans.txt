@@ -1,0 +1,6 @@
+/* SITE */
+Name: AllFun.com
+Built: 2026-10-29
+About: Free original browser games, daily puzzles, quizzes, fun tools and ideas.
+Standards: HTML5, CSS3, vanilla JavaScript
+Contact: https://allfun.com/contact.html
