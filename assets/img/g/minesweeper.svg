@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+<circle cx="28" cy="28" r="6" fill="#FFFFFF" fill-opacity=".55"/>
+<circle cx="296" cy="176" r="9" fill="#FFFFFF" fill-opacity=".45"/>
+<path d="M292.0 21.0 L294.8 27.2 L301.0 30.0 L294.8 32.8 L292.0 39.0 L289.2 32.8 L283.0 30.0 L289.2 27.2Z" fill="#FFFFFF" fill-opacity=".6"/>
+<rect x="100" y="38" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<text x="119" y="58" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="22" fill="#2D6BE0" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="142" y="38" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<text x="161" y="58" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="22" fill="#2D6BE0" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="184" y="38" width="38" height="38" rx="7" fill="#5B95FF" stroke="#1F1A4D" stroke-width="3"/>
+<path d="M198 68 V46 L214 52 L198 58" fill="#FF5C8A" stroke="#1F1A4D" stroke-width="3" stroke-linejoin="round"/>
+<rect x="100" y="80" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<rect x="142" y="80" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<text x="161" y="100" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="22" fill="#0F8A6C" text-anchor="middle" dominant-baseline="central">2</text>
+<rect x="184" y="80" width="38" height="38" rx="7" fill="#5B95FF" stroke="#1F1A4D" stroke-width="3"/>
+<circle cx="203" cy="99" r="9" fill="#1F1A4D" stroke="#1F1A4D" stroke-width="0"/>
+<path d="M203 85 V113 M189 99 H217" stroke="#1F1A4D" stroke-width="4"/>
+<rect x="100" y="122" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<rect x="142" y="122" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<text x="161" y="142" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="22" fill="#2D6BE0" text-anchor="middle" dominant-baseline="central">1</text>
+<rect x="184" y="122" width="38" height="38" rx="7" fill="#E2E5FB" stroke="#1F1A4D" stroke-width="3"/>
+<text x="203" y="142" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="22" fill="#2D6BE0" text-anchor="middle" dominant-baseline="central">1</text>
+</svg>
