@@ -1,0 +1,1737 @@
+{
+  "general-knowledge": {
+    "type": "trivia",
+    "title": "General Knowledge Quiz",
+    "emoji": "🧠",
+    "description": "Test your brain with 15 fun general knowledge questions on numbers, music, art, sports and words. Free, family-friendly trivia with instant answers.",
+    "intro": "Ready for a little bit of everything? This quiz mixes numbers, music, sports and wordplay into 15 quick questions that anyone in the family can try. Pick an answer to see if you're right and learn a fun fact along the way.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "How many sides does a hexagon have?",
+        "options": [
+          "5",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "why": "The prefix \"hex-\" comes from the Greek word for six, so a hexagon has six sides and six angles."
+      },
+      {
+        "q": "At sea level, pure water freezes at what temperature in degrees Fahrenheit?",
+        "options": [
+          "0°F",
+          "100°F",
+          "32°F",
+          "212°F"
+        ],
+        "answer": 2,
+        "why": "Pure water freezes at 32°F, which is the same as 0°C, at normal sea-level air pressure."
+      },
+      {
+        "q": "What color do you get when you mix blue and yellow paint?",
+        "options": [
+          "Purple",
+          "Green",
+          "Orange",
+          "Brown"
+        ],
+        "answer": 1,
+        "why": "In traditional paint mixing, blue and yellow combine to make green, a secondary color."
+      },
+      {
+        "q": "How many minutes are in one full day?",
+        "options": [
+          "1,240",
+          "1,400",
+          "1,440",
+          "2,400"
+        ],
+        "answer": 2,
+        "why": "A day has 24 hours and each hour has 60 minutes, so 24 × 60 = 1,440 minutes."
+      },
+      {
+        "q": "How many keys does a standard modern piano have?",
+        "options": [
+          "76",
+          "64",
+          "100",
+          "88"
+        ],
+        "answer": 3,
+        "why": "A standard modern piano has 88 keys: 52 white keys and 36 black keys."
+      },
+      {
+        "q": "The ancient Olympic Games began in which country?",
+        "options": [
+          "Greece",
+          "Italy",
+          "Egypt",
+          "China"
+        ],
+        "answer": 0,
+        "why": "The ancient Olympic Games were held at Olympia in Greece, traditionally starting in 776 BC."
+      },
+      {
+        "q": "How many strings does a standard violin have?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "answer": 1,
+        "why": "A violin has four strings, usually tuned to the notes G, D, A and E."
+      },
+      {
+        "q": "Which letter of the alphabet does not appear in the name of any U.S. state?",
+        "options": [
+          "Q",
+          "Z",
+          "X",
+          "J"
+        ],
+        "answer": 0,
+        "why": "Every letter of the alphabet shows up in at least one U.S. state name except Q."
+      },
+      {
+        "q": "How many players does each team have on the field in a standard soccer match?",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "12"
+        ],
+        "answer": 1,
+        "why": "Each soccer team has 11 players on the field at a time, including the goalkeeper."
+      },
+      {
+        "q": "A word that reads the same forward and backward, like \"level,\" is called a…",
+        "options": [
+          "Anagram",
+          "Homophone",
+          "Acronym",
+          "Palindrome"
+        ],
+        "answer": 3,
+        "why": "A palindrome reads the same in both directions, like \"level,\" \"kayak\" and \"racecar.\""
+      },
+      {
+        "q": "What is the smallest prime number?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": 1,
+        "why": "A prime number has exactly two factors, 1 and itself. The number 2 is the smallest prime and the only even one."
+      },
+      {
+        "q": "What number does the Roman numeral L stand for?",
+        "options": [
+          "50",
+          "5",
+          "100",
+          "500"
+        ],
+        "answer": 0,
+        "why": "In Roman numerals, L stands for 50, while V is 5, C is 100 and D is 500."
+      },
+      {
+        "q": "How many degrees are in a right angle?",
+        "options": [
+          "45",
+          "180",
+          "90",
+          "360"
+        ],
+        "answer": 2,
+        "why": "A right angle measures exactly 90 degrees, like the corner of a square."
+      },
+      {
+        "q": "Which mineral sits at the top of the Mohs hardness scale?",
+        "options": [
+          "Quartz",
+          "Topaz",
+          "Diamond",
+          "Corundum"
+        ],
+        "answer": 2,
+        "why": "Diamond ranks 10 on the Mohs scale, above corundum (9), topaz (8) and quartz (7)."
+      },
+      {
+        "q": "Which famous composer wrote his Ninth Symphony while almost completely deaf?",
+        "options": [
+          "Ludwig van Beethoven",
+          "Wolfgang Amadeus Mozart",
+          "Johann Sebastian Bach",
+          "Frédéric Chopin"
+        ],
+        "answer": 0,
+        "why": "Beethoven had lost nearly all of his hearing by the time his Ninth Symphony premiered in Vienna in 1824."
+      }
+    ]
+  },
+  "world-geography": {
+    "type": "trivia",
+    "title": "World Geography Quiz",
+    "emoji": "🌍",
+    "description": "How well do you know our planet? Try this free 15-question world geography quiz on capitals, oceans, mountains and landmarks, with instant answers.",
+    "intro": "Travel the globe without leaving your seat. These 15 questions take you from icy islands to desert sands, towering peaks and famous capital cities. See how many you can answer before reaching for a map!",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "What is the largest ocean on Earth?",
+        "options": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean"
+        ],
+        "answer": 3,
+        "why": "The Pacific is the largest and deepest ocean, covering about a third of Earth's surface."
+      },
+      {
+        "q": "What is the capital city of Canada?",
+        "options": [
+          "Toronto",
+          "Montreal",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "answer": 3,
+        "why": "Ottawa, on the Ottawa River in Ontario, has been Canada's capital since Confederation in 1867."
+      },
+      {
+        "q": "What is the capital city of Australia?",
+        "options": [
+          "Canberra",
+          "Sydney",
+          "Melbourne",
+          "Perth"
+        ],
+        "answer": 0,
+        "why": "Canberra was built as Australia's capital, partly as a compromise between the rival cities of Sydney and Melbourne."
+      },
+      {
+        "q": "What is the largest hot desert in the world?",
+        "options": [
+          "Sahara",
+          "Gobi",
+          "Kalahari",
+          "Mojave"
+        ],
+        "answer": 0,
+        "why": "The Sahara in northern Africa is the largest hot desert; only the cold polar deserts are bigger."
+      },
+      {
+        "q": "Mount Everest lies on the border between Nepal and which other country?",
+        "options": [
+          "India",
+          "China",
+          "Bhutan",
+          "Pakistan"
+        ],
+        "answer": 1,
+        "why": "Mount Everest, the highest mountain above sea level, sits on the border between Nepal and China."
+      },
+      {
+        "q": "Which river flows north through Egypt and into the Mediterranean Sea?",
+        "options": [
+          "Amazon",
+          "Danube",
+          "Tigris",
+          "Nile"
+        ],
+        "answer": 3,
+        "why": "The Nile flows north through Egypt to the Mediterranean, and most Egyptians live along its banks."
+      },
+      {
+        "q": "What is the smallest country in the world by area?",
+        "options": [
+          "Vatican City",
+          "Monaco",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "answer": 0,
+        "why": "Vatican City, completely surrounded by the city of Rome, is the smallest independent country in the world by area."
+      },
+      {
+        "q": "Which imaginary line divides Earth into the Northern and Southern Hemispheres?",
+        "options": [
+          "The prime meridian",
+          "The Tropic of Cancer",
+          "The equator",
+          "The Arctic Circle"
+        ],
+        "answer": 2,
+        "why": "The equator circles Earth halfway between the North and South Poles, splitting the planet into two hemispheres."
+      },
+      {
+        "q": "Which European country is shaped like a boot?",
+        "options": [
+          "Greece",
+          "Spain",
+          "Portugal",
+          "Italy"
+        ],
+        "answer": 3,
+        "why": "Italy's long peninsula reaches into the Mediterranean Sea in a shape that looks like a high-heeled boot."
+      },
+      {
+        "q": "The ancient Inca site of Machu Picchu is in which country?",
+        "options": [
+          "Mexico",
+          "Peru",
+          "Chile",
+          "Bolivia"
+        ],
+        "answer": 1,
+        "why": "Machu Picchu is a 15th-century Inca citadel built high in the Andes Mountains of Peru."
+      },
+      {
+        "q": "Which narrow waterway separates Spain from Morocco?",
+        "options": [
+          "Bosporus",
+          "Strait of Hormuz",
+          "Strait of Gibraltar",
+          "Bering Strait"
+        ],
+        "answer": 2,
+        "why": "The Strait of Gibraltar links the Atlantic Ocean to the Mediterranean Sea and separates Europe from Africa."
+      },
+      {
+        "q": "What is the largest island in the world, not counting continents?",
+        "options": [
+          "New Guinea",
+          "Greenland",
+          "Borneo",
+          "Madagascar"
+        ],
+        "answer": 1,
+        "why": "Greenland is the world's largest island; Australia is bigger, but it is classed as a continent."
+      },
+      {
+        "q": "Mount Kilimanjaro, Africa's highest peak, is in which country?",
+        "options": [
+          "Tanzania",
+          "Kenya",
+          "Uganda",
+          "Ethiopia"
+        ],
+        "answer": 0,
+        "why": "Kilimanjaro rises in northeastern Tanzania, close to the border with Kenya."
+      },
+      {
+        "q": "Which mountain range runs along the western side of South America?",
+        "options": [
+          "The Rockies",
+          "The Andes",
+          "The Alps",
+          "The Himalayas"
+        ],
+        "answer": 1,
+        "why": "The Andes stretch along South America's western edge and form the longest continental mountain range on Earth."
+      },
+      {
+        "q": "Which U.S. state is made up entirely of islands?",
+        "options": [
+          "Alaska",
+          "Florida",
+          "Hawaii",
+          "Rhode Island"
+        ],
+        "answer": 2,
+        "why": "Hawaii is a chain of volcanic islands in the Pacific Ocean and the only U.S. state made entirely of islands."
+      }
+    ]
+  },
+  "science": {
+    "type": "trivia",
+    "title": "Everyday Science Quiz",
+    "emoji": "🔬",
+    "description": "Take a free 15-question everyday science quiz on the human body, light, sound, air and chemistry. Family-friendly fun with an explanation for each answer.",
+    "intro": "Science is happening all around you, from the color of the sky to the bones in your body. Test what you know with 15 questions about the everyday science that shapes your world. Each answer comes with a quick explanation, so you'll learn something either way.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "Which gas do plants take in from the air to make food through photosynthesis?",
+        "options": [
+          "Oxygen",
+          "Nitrogen",
+          "Helium",
+          "Carbon dioxide"
+        ],
+        "answer": 3,
+        "why": "Plants take in carbon dioxide and use sunlight and water to turn it into sugar, releasing oxygen."
+      },
+      {
+        "q": "What is the chemical formula for water?",
+        "options": [
+          "CO₂",
+          "O₂",
+          "H₂O",
+          "H₂O₂"
+        ],
+        "answer": 2,
+        "why": "Each water molecule is made of two hydrogen atoms joined to one oxygen atom."
+      },
+      {
+        "q": "At sea level, pure water boils at what temperature in degrees Celsius?",
+        "options": [
+          "100°C",
+          "90°C",
+          "120°C",
+          "212°C"
+        ],
+        "answer": 0,
+        "why": "At sea level, pure water boils at 100°C, which is the same as 212°F."
+      },
+      {
+        "q": "What force pulls objects toward Earth and keeps us on the ground?",
+        "options": [
+          "Magnetism",
+          "Friction",
+          "Gravity",
+          "Static electricity"
+        ],
+        "answer": 2,
+        "why": "Gravity is the force that pulls objects with mass toward each other, which is why things fall toward Earth."
+      },
+      {
+        "q": "What is the largest organ of the human body?",
+        "options": [
+          "Liver",
+          "Skin",
+          "Brain",
+          "Lungs"
+        ],
+        "answer": 1,
+        "why": "Skin is the body's largest organ, protecting you from germs, helping control temperature and sensing touch."
+      },
+      {
+        "q": "How many bones are in a typical adult human body?",
+        "options": [
+          "186",
+          "226",
+          "306",
+          "206"
+        ],
+        "answer": 3,
+        "why": "A typical adult has 206 bones; babies are born with more, but many fuse together as they grow."
+      },
+      {
+        "q": "Which color of visible light has the longest wavelength?",
+        "options": [
+          "Violet",
+          "Green",
+          "Red",
+          "Blue"
+        ],
+        "answer": 2,
+        "why": "Red light has the longest wavelength in the visible spectrum, and violet light has the shortest."
+      },
+      {
+        "q": "Why does the sky look blue on a clear, sunny day?",
+        "options": [
+          "It reflects the color of the ocean",
+          "The Sun gives off only blue light",
+          "Air scatters blue sunlight more than other colors",
+          "Clouds filter out the other colors"
+        ],
+        "answer": 2,
+        "why": "Tiny air molecules scatter short blue wavelengths of sunlight much more than red ones, spreading blue light across the sky."
+      },
+      {
+        "q": "What is the tiny, dense center of an atom called?",
+        "options": [
+          "The electron",
+          "The orbit",
+          "The molecule",
+          "The nucleus"
+        ],
+        "answer": 3,
+        "why": "The nucleus is the dense center of an atom, where its protons and neutrons are found, while electrons move around it."
+      },
+      {
+        "q": "Your skin makes which vitamin when it is exposed to sunlight?",
+        "options": [
+          "Vitamin D",
+          "Vitamin A",
+          "Vitamin C",
+          "Vitamin K"
+        ],
+        "answer": 0,
+        "why": "When sunlight's UVB rays reach your skin, your body uses them to make vitamin D, which helps build strong bones."
+      },
+      {
+        "q": "Sound travels fastest through which of these?",
+        "options": [
+          "Air",
+          "Steel",
+          "Water",
+          "Outer space"
+        ],
+        "answer": 1,
+        "why": "Sound moves faster through solids like steel than through water or air, and it cannot travel through the vacuum of space."
+      },
+      {
+        "q": "Which gas makes up most of the air in Earth's atmosphere?",
+        "options": [
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon",
+          "Nitrogen"
+        ],
+        "answer": 3,
+        "why": "Nitrogen makes up about 78 percent of Earth's atmosphere, while oxygen makes up about 21 percent."
+      },
+      {
+        "q": "What do we call the energy an object has because it is moving?",
+        "options": [
+          "Kinetic energy",
+          "Potential energy",
+          "Chemical energy",
+          "Nuclear energy"
+        ],
+        "answer": 0,
+        "why": "Kinetic energy is the energy of motion; the faster an object moves, the more kinetic energy it has."
+      },
+      {
+        "q": "What is the pH of pure water at room temperature?",
+        "options": [
+          "0",
+          "7",
+          "5",
+          "14"
+        ],
+        "answer": 1,
+        "why": "Pure water at room temperature has a pH of 7, which is neutral, neither acidic nor basic."
+      },
+      {
+        "q": "Which blood cells help your body fight infections?",
+        "options": [
+          "White blood cells",
+          "Red blood cells",
+          "Platelets",
+          "Nerve cells"
+        ],
+        "answer": 0,
+        "why": "White blood cells are part of the immune system and help the body find and fight germs."
+      }
+    ]
+  },
+  "animals": {
+    "type": "trivia",
+    "title": "Animal Kingdom Quiz",
+    "emoji": "🦁",
+    "description": "Explore the animal kingdom with 15 fun trivia questions about mammals, birds, sea creatures and bugs. A free, family-friendly quiz with instant answers.",
+    "intro": "From tiny spiders to giant whales, the animal kingdom is full of surprises. Answer 15 questions about creatures on land, in the sea and in the sky. Most are friendly warm-ups, but a few might stump the biggest animal lover in your family.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "What is a group of lions called?",
+        "options": [
+          "A pack",
+          "A pride",
+          "A herd",
+          "A flock"
+        ],
+        "answer": 1,
+        "why": "Lions are the most social of the big cats, living together in family groups called prides."
+      },
+      {
+        "q": "Which is the largest animal living on Earth today?",
+        "options": [
+          "African elephant",
+          "Whale shark",
+          "Blue whale",
+          "Giraffe"
+        ],
+        "answer": 2,
+        "why": "Blue whales can grow to around 30 meters (nearly 100 feet) long, making them the largest animals alive."
+      },
+      {
+        "q": "How many hearts does an octopus have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "8"
+        ],
+        "answer": 2,
+        "why": "An octopus has two hearts that pump blood through its gills and a third that pumps it around the rest of its body."
+      },
+      {
+        "q": "What is a baby kangaroo called?",
+        "options": [
+          "A joey",
+          "A cub",
+          "A kit",
+          "A calf"
+        ],
+        "answer": 0,
+        "why": "Baby kangaroos are called joeys, and they grow and develop inside their mother's pouch."
+      },
+      {
+        "q": "Which bird cannot fly but is the fastest runner of all birds?",
+        "options": [
+          "Ostrich",
+          "Emu",
+          "Penguin",
+          "Kiwi"
+        ],
+        "answer": 0,
+        "why": "Ostriches can't fly, but their long, powerful legs make them the fastest-running birds on Earth."
+      },
+      {
+        "q": "Which mammal is capable of true powered flight?",
+        "options": [
+          "Flying squirrel",
+          "Sugar glider",
+          "Colugo",
+          "Bat"
+        ],
+        "answer": 3,
+        "why": "Bats are the only mammals that can truly fly; flying squirrels, sugar gliders and colugos only glide."
+      },
+      {
+        "q": "Before becoming a butterfly, a caterpillar transforms inside a protective case called a…",
+        "options": [
+          "Carapace",
+          "Chrysalis",
+          "Hive",
+          "Burrow"
+        ],
+        "answer": 1,
+        "why": "A caterpillar forms a chrysalis, also called a pupa, where its body is rebuilt into a butterfly."
+      },
+      {
+        "q": "How many legs does a spider have?",
+        "options": [
+          "6",
+          "10",
+          "12",
+          "8"
+        ],
+        "answer": 3,
+        "why": "Spiders are arachnids with eight legs, while insects such as ants and beetles have six."
+      },
+      {
+        "q": "A group of dolphins swimming together is called a…",
+        "options": [
+          "Pack",
+          "Flock",
+          "Pod",
+          "Gaggle"
+        ],
+        "answer": 2,
+        "why": "Dolphins often travel, hunt and play together in social groups called pods."
+      },
+      {
+        "q": "Where do nearly all wild penguins live?",
+        "options": [
+          "The Arctic",
+          "Northern Europe",
+          "Northern Canada",
+          "The Southern Hemisphere"
+        ],
+        "answer": 3,
+        "why": "Nearly all penguins live in the Southern Hemisphere; the Galápagos penguin is the only one found just north of the equator."
+      },
+      {
+        "q": "Which animal has black skin hidden under fur that looks white?",
+        "options": [
+          "Arctic fox",
+          "Polar bear",
+          "Arctic hare",
+          "Ermine"
+        ],
+        "answer": 1,
+        "why": "A polar bear has black skin beneath its fur, and the fur hairs themselves are actually clear, only appearing white."
+      },
+      {
+        "q": "What food makes up almost all of a giant panda's diet?",
+        "options": [
+          "Bamboo",
+          "Eucalyptus leaves",
+          "Fish",
+          "Berries"
+        ],
+        "answer": 0,
+        "why": "Bamboo makes up about 99 percent of a giant panda's diet, and pandas spend much of each day eating it."
+      },
+      {
+        "q": "Which is the fastest land animal?",
+        "options": [
+          "Lion",
+          "Pronghorn",
+          "Cheetah",
+          "Greyhound"
+        ],
+        "answer": 2,
+        "why": "Cheetahs are the fastest land animals, able to reach roughly 100 km/h (about 60 mph) in short bursts."
+      },
+      {
+        "q": "Which of these animals is an amphibian?",
+        "options": [
+          "Lizard",
+          "Frog",
+          "Turtle",
+          "Snake"
+        ],
+        "answer": 1,
+        "why": "Frogs are amphibians that usually begin life in water as tadpoles; lizards, turtles and snakes are reptiles."
+      },
+      {
+        "q": "Which animal is famous for \"playing dead\" when it is badly frightened?",
+        "options": [
+          "Raccoon",
+          "Skunk",
+          "Squirrel",
+          "Opossum"
+        ],
+        "answer": 3,
+        "why": "When badly frightened, a Virginia opossum may go limp and appear dead, which can make predators lose interest."
+      }
+    ]
+  },
+  "space": {
+    "type": "trivia",
+    "title": "Space & Astronomy Quiz",
+    "emoji": "🚀",
+    "description": "Blast off with a free 15-question space and astronomy quiz on planets, stars, the Moon and more. Family-friendly trivia with a fun fact after each answer.",
+    "intro": "Look up and get ready to explore! This quiz covers planets, stars, moons and a few cosmic surprises that stump even big astronomy fans. Answer all 15 questions to see how far your space knowledge really reaches.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "Which planet is known as the Red Planet?",
+        "options": [
+          "Venus",
+          "Jupiter",
+          "Mars",
+          "Mercury"
+        ],
+        "answer": 2,
+        "why": "Iron oxide, better known as rust, in Martian rocks and dust gives Mars its reddish color."
+      },
+      {
+        "q": "What is the closest star to Earth?",
+        "options": [
+          "Proxima Centauri",
+          "The Sun",
+          "Sirius",
+          "Polaris"
+        ],
+        "answer": 1,
+        "why": "The Sun is a star about 150 million km away; the next closest star, Proxima Centauri, is about 4.2 light-years away."
+      },
+      {
+        "q": "Which planet is closest to the Sun?",
+        "options": [
+          "Venus",
+          "Mars",
+          "Mercury",
+          "Earth"
+        ],
+        "answer": 2,
+        "why": "Mercury is the closest planet to the Sun and also the smallest planet in our solar system."
+      },
+      {
+        "q": "What is the largest planet in our solar system?",
+        "options": [
+          "Saturn",
+          "Neptune",
+          "Uranus",
+          "Jupiter"
+        ],
+        "answer": 3,
+        "why": "Jupiter is so big that more than 1,300 Earths could fit inside it."
+      },
+      {
+        "q": "Who was the first person to walk on the Moon?",
+        "options": [
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "Neil Armstrong",
+          "John Glenn"
+        ],
+        "answer": 2,
+        "why": "Neil Armstrong stepped onto the Moon in July 1969 during the Apollo 11 mission, with Buzz Aldrin following soon after."
+      },
+      {
+        "q": "About how long does sunlight take to travel from the Sun to Earth?",
+        "options": [
+          "About 8 minutes",
+          "About 8 seconds",
+          "About 8 hours",
+          "About 8 days"
+        ],
+        "answer": 0,
+        "why": "Sunlight crosses the roughly 150 million km between the Sun and Earth in about 8 minutes and 20 seconds."
+      },
+      {
+        "q": "What is the main reason Earth has seasons?",
+        "options": [
+          "Earth's changing distance from the Sun",
+          "The Sun getting hotter and cooler",
+          "The Moon blocking sunlight",
+          "The tilt of Earth's axis"
+        ],
+        "answer": 3,
+        "why": "Earth's axis is tilted about 23.5 degrees, so each hemisphere gets more direct sunlight during part of the year."
+      },
+      {
+        "q": "Which planet is famous for huge, bright rings that can be seen through a small telescope?",
+        "options": [
+          "Jupiter",
+          "Saturn",
+          "Uranus",
+          "Neptune"
+        ],
+        "answer": 1,
+        "why": "All four giant planets have rings, but Saturn's icy rings are by far the largest and brightest."
+      },
+      {
+        "q": "What does a light-year measure?",
+        "options": [
+          "Time",
+          "Brightness",
+          "Speed",
+          "Distance"
+        ],
+        "answer": 3,
+        "why": "A light-year is the distance light travels in one year: about 9.46 trillion km (5.88 trillion miles)."
+      },
+      {
+        "q": "What is the name of the galaxy that contains our solar system?",
+        "options": [
+          "Andromeda",
+          "The Milky Way",
+          "The Whirlpool Galaxy",
+          "The Triangulum Galaxy"
+        ],
+        "answer": 1,
+        "why": "Our solar system is one of countless star systems in the Milky Way, a spiral galaxy containing billions of stars."
+      },
+      {
+        "q": "Which planet is tilted so far that it spins almost on its side?",
+        "options": [
+          "Neptune",
+          "Uranus",
+          "Saturn",
+          "Venus"
+        ],
+        "answer": 1,
+        "why": "Uranus is tilted about 98 degrees, so it essentially rolls around the Sun on its side."
+      },
+      {
+        "q": "How many planets are in our solar system?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": 0,
+        "why": "In 2006, astronomers reclassified Pluto as a dwarf planet, leaving eight planets in our solar system."
+      },
+      {
+        "q": "What do we call a space rock that survives its fall through the atmosphere and lands on Earth?",
+        "options": [
+          "A meteorite",
+          "A meteor",
+          "A comet",
+          "An asteroid"
+        ],
+        "answer": 0,
+        "why": "A space rock burning up in the sky is a meteor; any piece that survives and reaches the ground is a meteorite."
+      },
+      {
+        "q": "Which planet has the highest average surface temperature?",
+        "options": [
+          "Mercury",
+          "Mars",
+          "Venus",
+          "Earth"
+        ],
+        "answer": 2,
+        "why": "Venus's thick carbon dioxide atmosphere traps heat, making its surface hotter than Mercury's and hot enough to melt lead."
+      },
+      {
+        "q": "During which phase is the Moon between Earth and the Sun, making it nearly invisible to us?",
+        "options": [
+          "New moon",
+          "Full moon",
+          "First quarter",
+          "Waning gibbous"
+        ],
+        "answer": 0,
+        "why": "At new moon, the Moon sits roughly between Earth and the Sun, so the side facing us is in shadow."
+      }
+    ]
+  },
+  "food": {
+    "type": "trivia",
+    "title": "Food Around the World Quiz",
+    "emoji": "🍜",
+    "description": "Take a tasty trip with 15 food trivia questions on famous dishes, spices and ingredients from around the world. A free, family-friendly quiz with answers.",
+    "intro": "Grab a fork and get ready to travel the world one dish at a time. These 15 questions cover famous foods, spices and ingredients from kitchens across the globe. Just try not to get too hungry before you finish!",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "What is the main ingredient in guacamole?",
+        "options": [
+          "Green pepper",
+          "Avocado",
+          "Cucumber",
+          "Lime"
+        ],
+        "answer": 1,
+        "why": "Guacamole comes from Mexico and is made by mashing ripe avocados, often with lime, onion, cilantro and chili."
+      },
+      {
+        "q": "Paella, a rice dish cooked in a wide, shallow pan, comes from which country?",
+        "options": [
+          "Italy",
+          "Portugal",
+          "Spain",
+          "Mexico"
+        ],
+        "answer": 2,
+        "why": "Paella comes from the Valencia region on Spain's eastern coast."
+      },
+      {
+        "q": "Hummus is made mainly from which legume?",
+        "options": [
+          "Lentils",
+          "Chickpeas",
+          "Black beans",
+          "Green peas"
+        ],
+        "answer": 1,
+        "why": "Hummus is a creamy dip made by blending cooked chickpeas with tahini, lemon juice and garlic."
+      },
+      {
+        "q": "Which fresh herb is the star ingredient in classic Italian pesto?",
+        "options": [
+          "Parsley",
+          "Mint",
+          "Basil",
+          "Cilantro"
+        ],
+        "answer": 2,
+        "why": "Classic pesto from Genoa, Italy, blends fresh basil with pine nuts, garlic, hard cheese and olive oil."
+      },
+      {
+        "q": "Kimchi, a spicy fermented vegetable dish, comes from which country?",
+        "options": [
+          "Japan",
+          "Thailand",
+          "Vietnam",
+          "Korea"
+        ],
+        "answer": 3,
+        "why": "Kimchi is a Korean side dish of salted, fermented vegetables, most often napa cabbage seasoned with chili and garlic."
+      },
+      {
+        "q": "Which spice gives many curries their bright golden-yellow color?",
+        "options": [
+          "Turmeric",
+          "Paprika",
+          "Cinnamon",
+          "Cumin"
+        ],
+        "answer": 0,
+        "why": "Turmeric, a root in the ginger family, contains a bright yellow natural pigment called curcumin."
+      },
+      {
+        "q": "Poutine, a dish of fries topped with cheese curds and gravy, comes from which country?",
+        "options": [
+          "Belgium",
+          "France",
+          "Ireland",
+          "Canada"
+        ],
+        "answer": 3,
+        "why": "Poutine was created in rural Quebec, Canada, in the 1950s and is now loved across the country."
+      },
+      {
+        "q": "Tofu is made from the milk of which bean?",
+        "options": [
+          "Kidney bean",
+          "Soybean",
+          "Chickpea",
+          "Lima bean"
+        ],
+        "answer": 1,
+        "why": "Tofu is made by curdling soy milk and pressing the curds into soft or firm blocks."
+      },
+      {
+        "q": "Marzipan is a sweet paste made mostly from sugar and which nut?",
+        "options": [
+          "Almonds",
+          "Peanuts",
+          "Cashews",
+          "Walnuts"
+        ],
+        "answer": 0,
+        "why": "Marzipan is a sweet, moldable paste made mainly from finely ground almonds and sugar."
+      },
+      {
+        "q": "Goulash, a hearty stew seasoned with paprika, is a national dish of which country?",
+        "options": [
+          "Hungary",
+          "Greece",
+          "Ireland",
+          "Sweden"
+        ],
+        "answer": 0,
+        "why": "Goulash is a Hungarian stew of meat and vegetables, flavored generously with paprika."
+      },
+      {
+        "q": "Naan is a type of what?",
+        "options": [
+          "Rice dish",
+          "Flatbread",
+          "Dumpling",
+          "Soup"
+        ],
+        "answer": 1,
+        "why": "Naan is a soft, leavened flatbread traditionally baked against the hot inside walls of a clay tandoor oven."
+      },
+      {
+        "q": "Which spiky tropical fruit, nicknamed the \"king of fruits\" in Southeast Asia, is famous for its powerful smell?",
+        "options": [
+          "Jackfruit",
+          "Rambutan",
+          "Lychee",
+          "Durian"
+        ],
+        "answer": 3,
+        "why": "Durian has many devoted fans, but its smell is so strong that it is banned on some public transit in Southeast Asia."
+      },
+      {
+        "q": "When pasta is cooked \"al dente,\" it is…",
+        "options": [
+          "Cooked until very soft",
+          "Baked in the oven",
+          "Tender but still slightly firm",
+          "Served cold"
+        ],
+        "answer": 2,
+        "why": "Al dente is Italian for \"to the tooth,\" describing pasta that is cooked through but still has a gentle bite."
+      },
+      {
+        "q": "Chocolate is made from the seeds of which plant?",
+        "options": [
+          "Coffee",
+          "Vanilla",
+          "Carob",
+          "Cacao"
+        ],
+        "answer": 3,
+        "why": "Chocolate is made from the roasted, ground seeds of the cacao tree, which is native to the tropical Americas."
+      },
+      {
+        "q": "Saffron, a precious spice, comes from which part of the crocus flower?",
+        "options": [
+          "The stigmas",
+          "The petals",
+          "The seeds",
+          "The roots"
+        ],
+        "answer": 0,
+        "why": "Saffron is the dried red stigmas of the saffron crocus; each flower has only three, so harvesting is slow, careful work."
+      }
+    ]
+  },
+  "history": {
+    "type": "trivia",
+    "title": "Inventions & History Quiz",
+    "emoji": "💡",
+    "description": "Test your knowledge of great inventions and history with 15 fun trivia questions, from ancient wonders to the web. Free, family-friendly, instant answers.",
+    "intro": "Some of the world's biggest ideas started with one curious person. Travel from ancient wonders to modern inventions in 15 questions about the people and breakthroughs that changed everyday life. Every answer comes with a short explanation.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "Which brothers made the first controlled, powered airplane flight in 1903?",
+        "options": [
+          "The Wright brothers",
+          "The Montgolfier brothers",
+          "The Lumière brothers",
+          "The Grimm brothers"
+        ],
+        "answer": 0,
+        "why": "Orville and Wilbur Wright flew their airplane near Kitty Hawk, North Carolina, on December 17, 1903."
+      },
+      {
+        "q": "Who introduced the movable-type printing press to Europe around 1440?",
+        "options": [
+          "Johannes Gutenberg",
+          "Leonardo da Vinci",
+          "Galileo Galilei",
+          "Nicolaus Copernicus"
+        ],
+        "answer": 0,
+        "why": "Gutenberg's printing press in Germany made books much faster and cheaper to produce; movable type had been invented earlier in East Asia."
+      },
+      {
+        "q": "The Great Pyramid of Giza is in which country?",
+        "options": [
+          "Greece",
+          "Mexico",
+          "India",
+          "Egypt"
+        ],
+        "answer": 3,
+        "why": "The Great Pyramid of Giza was built for the pharaoh Khufu more than 4,500 years ago."
+      },
+      {
+        "q": "Which scientist discovered penicillin in 1928?",
+        "options": [
+          "Alexander Fleming",
+          "Louis Pasteur",
+          "Marie Curie",
+          "Edward Jenner"
+        ],
+        "answer": 0,
+        "why": "In 1928, Alexander Fleming noticed a mold killing bacteria in a lab dish, a discovery that led to penicillin."
+      },
+      {
+        "q": "Marie Curie won Nobel Prizes in which two sciences?",
+        "options": [
+          "Physics and medicine",
+          "Physics and chemistry",
+          "Chemistry and biology",
+          "Medicine and chemistry"
+        ],
+        "answer": 1,
+        "why": "Marie Curie won the 1903 Nobel Prize in Physics and the 1911 Nobel Prize in Chemistry."
+      },
+      {
+        "q": "Ancient Egyptians wrote on a paper-like material made from which plant?",
+        "options": [
+          "Bamboo",
+          "Cotton",
+          "Flax",
+          "Papyrus"
+        ],
+        "answer": 3,
+        "why": "Egyptians made sheets for writing by pressing together thin strips of the papyrus plant, which grew along the Nile."
+      },
+      {
+        "q": "Who described the three laws of motion in a famous book published in 1687?",
+        "options": [
+          "Albert Einstein",
+          "Galileo Galilei",
+          "Isaac Newton",
+          "Johannes Kepler"
+        ],
+        "answer": 2,
+        "why": "Isaac Newton set out his three laws of motion and his law of universal gravitation in his 1687 book, Principia."
+      },
+      {
+        "q": "Which Wonder of the Ancient World stood in Alexandria, Egypt?",
+        "options": [
+          "The Hanging Gardens",
+          "The Colossus",
+          "The Pharos lighthouse",
+          "The Mausoleum"
+        ],
+        "answer": 2,
+        "why": "The Lighthouse of Alexandria, known as the Pharos, guided ships into the city's harbor and was one of the Seven Wonders."
+      },
+      {
+        "q": "Who invented the World Wide Web?",
+        "options": [
+          "Tim Berners-Lee",
+          "Alan Turing",
+          "Charles Babbage",
+          "Thomas Edison"
+        ],
+        "answer": 0,
+        "why": "British scientist Tim Berners-Lee proposed the World Wide Web in 1989 while working at CERN, a physics laboratory near Geneva."
+      },
+      {
+        "q": "Which ancient town was buried in ash when Mount Vesuvius erupted in AD 79?",
+        "options": [
+          "Athens",
+          "Carthage",
+          "Pompeii",
+          "Venice"
+        ],
+        "answer": 2,
+        "why": "Vesuvius's eruption in AD 79 buried the Roman town of Pompeii in ash, preserving it for archaeologists to study."
+      },
+      {
+        "q": "What did Louis Braille create?",
+        "options": [
+          "A code of flag signals for ships",
+          "A raised-dot reading system for blind people",
+          "A shorthand for fast note-taking",
+          "An early hearing aid"
+        ],
+        "answer": 1,
+        "why": "Louis Braille, blind from early childhood, began developing his raised-dot reading and writing system in France in the 1820s, while still a student."
+      },
+      {
+        "q": "Which ancient people created cuneiform, one of the earliest known writing systems?",
+        "options": [
+          "The Vikings",
+          "The Aztecs",
+          "The Romans",
+          "The Sumerians"
+        ],
+        "answer": 3,
+        "why": "The Sumerians of ancient Mesopotamia pressed wedge-shaped cuneiform marks into clay tablets more than 5,000 years ago."
+      },
+      {
+        "q": "Which direction-finding tool with a magnetized needle was first developed in China?",
+        "options": [
+          "The sextant",
+          "The astrolabe",
+          "The compass",
+          "The telescope"
+        ],
+        "answer": 2,
+        "why": "By the 11th century, Chinese writers described magnetized needles that point north and south, used to find direction."
+      },
+      {
+        "q": "In 1610, Galileo used which instrument to discover four moons orbiting Jupiter?",
+        "options": [
+          "A microscope",
+          "A telescope",
+          "A barometer",
+          "A sundial"
+        ],
+        "answer": 1,
+        "why": "In 1610, Galileo pointed his improved telescope at Jupiter and spotted its four largest moons."
+      },
+      {
+        "q": "Who is often called the first computer programmer for her work on Charles Babbage's Analytical Engine?",
+        "options": [
+          "Katherine Johnson",
+          "Florence Nightingale",
+          "Hedy Lamarr",
+          "Ada Lovelace"
+        ],
+        "answer": 3,
+        "why": "In 1843, Ada Lovelace published notes showing how Babbage's planned Analytical Engine could calculate a series of numbers."
+      }
+    ]
+  },
+  "words": {
+    "type": "trivia",
+    "title": "Word Nerd Vocabulary Quiz",
+    "emoji": "📚",
+    "description": "Are you a word nerd? Try 15 fun vocabulary questions on tricky definitions, spelling and wordplay. A free, family-friendly quiz with instant explanations.",
+    "intro": "Words are the building blocks of every story, joke and conversation. Put your vocabulary to the test with 15 questions about meanings, spelling and clever wordplay. It's perfect for word lovers, spelling bee fans and anyone who enjoys a good definition.",
+    "level": "Easy–Medium",
+    "questions": [
+      {
+        "q": "What does \"gregarious\" mean?",
+        "options": [
+          "Quiet and shy",
+          "Quick to anger",
+          "Fond of company and sociable",
+          "Generous with money"
+        ],
+        "answer": 2,
+        "why": "Gregarious describes someone who enjoys being around other people; it comes from the Latin word for \"flock.\""
+      },
+      {
+        "q": "Someone who is loquacious is…",
+        "options": [
+          "Very talkative",
+          "Very forgetful",
+          "Easily frightened",
+          "Extremely tidy"
+        ],
+        "answer": 0,
+        "why": "A loquacious person is very talkative and happily chats at length."
+      },
+      {
+        "q": "What is a bibliophile?",
+        "options": [
+          "A person who collects coins",
+          "A person who studies insects",
+          "A person who fears crowds",
+          "A person who loves books"
+        ],
+        "answer": 3,
+        "why": "A bibliophile loves books; the word combines Greek roots meaning \"book\" and \"loving.\""
+      },
+      {
+        "q": "Which word means \"lasting for a very short time\"?",
+        "options": [
+          "Eternal",
+          "Enormous",
+          "Ephemeral",
+          "Elaborate"
+        ],
+        "answer": 2,
+        "why": "Ephemeral means short-lived, like a soap bubble or a rainbow that fades within minutes."
+      },
+      {
+        "q": "Which word describes a material you can see through clearly, like a clean window?",
+        "options": [
+          "Opaque",
+          "Transparent",
+          "Translucent",
+          "Reflective"
+        ],
+        "answer": 1,
+        "why": "Transparent materials let light pass straight through so you can see clearly; translucent ones let light through but blur the view."
+      },
+      {
+        "q": "Words that sound the same but have different meanings, like \"flower\" and \"flour,\" are called…",
+        "options": [
+          "Synonyms",
+          "Antonyms",
+          "Palindromes",
+          "Homophones"
+        ],
+        "answer": 3,
+        "why": "Homophones sound alike but differ in meaning and often in spelling, like \"flower\" and \"flour.\""
+      },
+      {
+        "q": "A benevolent person is best described as…",
+        "options": [
+          "Kind and well-meaning",
+          "Lazy and careless",
+          "Secretive and mysterious",
+          "Proud and boastful"
+        ],
+        "answer": 0,
+        "why": "Benevolent describes someone who is kind, generous and eager to help others."
+      },
+      {
+        "q": "What does the prefix \"tri-\" mean?",
+        "options": [
+          "Two",
+          "Four",
+          "Many",
+          "Three"
+        ],
+        "answer": 3,
+        "why": "The prefix \"tri-\" means three, as in triangle, tricycle and triplets."
+      },
+      {
+        "q": "Which of these words is an example of onomatopoeia?",
+        "options": [
+          "Quickly",
+          "Sizzle",
+          "Beautiful",
+          "Ladder"
+        ],
+        "answer": 1,
+        "why": "Onomatopoeia is a word that imitates the sound it names, and \"sizzle\" sounds like food frying in a hot pan."
+      },
+      {
+        "q": "To mitigate a problem means to…",
+        "options": [
+          "Make it worse",
+          "Make it less severe",
+          "Ignore it completely",
+          "Blame someone else"
+        ],
+        "answer": 1,
+        "why": "To mitigate something means to make it less severe, harmful or painful."
+      },
+      {
+        "q": "An animal that is nocturnal is…",
+        "options": [
+          "Able to live only in water",
+          "A plant-only eater",
+          "Active mainly at night",
+          "Asleep all winter"
+        ],
+        "answer": 2,
+        "why": "Nocturnal animals, such as owls and bats, are active at night and rest during the day."
+      },
+      {
+        "q": "If something is ubiquitous, it is…",
+        "options": [
+          "Very rare",
+          "Extremely old",
+          "Found almost everywhere",
+          "Hard to understand"
+        ],
+        "answer": 2,
+        "why": "Something ubiquitous seems to turn up everywhere, like sand at the beach."
+      },
+      {
+        "q": "What does \"serendipity\" mean?",
+        "options": [
+          "A feeling of deep sadness",
+          "A calm, peaceful place",
+          "The habit of always being on time",
+          "A lucky discovery made by chance"
+        ],
+        "answer": 3,
+        "why": "Serendipity is the happy accident of finding something good without looking for it."
+      },
+      {
+        "q": "Which word is spelled correctly?",
+        "options": [
+          "Necessary",
+          "Neccessary",
+          "Necesary",
+          "Neccesary"
+        ],
+        "answer": 0,
+        "why": "Necessary has one C and a double S; a handy memory tip is \"one collar, two sleeves.\""
+      },
+      {
+        "q": "\"Brunch,\" a blend of \"breakfast\" and \"lunch,\" is an example of what kind of word?",
+        "options": [
+          "An acronym",
+          "A portmanteau",
+          "A palindrome",
+          "An antonym"
+        ],
+        "answer": 1,
+        "why": "A portmanteau blends parts of two words into a new one, like brunch from breakfast and lunch."
+      }
+    ]
+  },
+  "fun-style": {
+    "type": "personality",
+    "title": "What's Your Fun Style?",
+    "emoji": "🎭",
+    "description": "What's your fun style? Answer 10 quick questions to discover if you're a Thinker, Adventurer, Maker, Socializer, Competitor or Chiller.",
+    "intro": "Everyone has a favorite way to have fun, and yours says a lot about you. Answer 10 quick questions honestly, and we'll reveal your fun style along with games and ideas picked just for you. There are no wrong answers!",
+    "results": {
+      "thinker": {
+        "name": "The Thinker",
+        "emoji": "🧠",
+        "text": "For you, fun starts when your brain switches on. You love puzzles, patterns and the satisfying click of figuring something out. While others rush ahead, you notice the details, plan a few moves in advance and enjoy learning how things work. A quiet hour with a tricky logic game sounds like a great time. Keep feeding that curiosity, because every puzzle you solve makes the next one even more rewarding.",
+        "picks": [
+          {
+            "label": "Sudoku",
+            "href": "play/sudoku.html"
+          },
+          {
+            "label": "Minesweeper",
+            "href": "play/minesweeper.html"
+          },
+          {
+            "label": "FiveWord Puzzle",
+            "href": "play/fiveword.html"
+          }
+        ]
+      },
+      "adventurer": {
+        "name": "The Adventurer",
+        "emoji": "🧭",
+        "text": "You are happiest when something new is waiting around the corner. Unplanned outings, unfamiliar trails and spur-of-the-moment ideas give you energy, and you would rather try something and laugh about it than wonder what might have happened. Friends count on you to suggest the plan nobody else thought of. Let a spin of the wheel pick your next outing, or grab a list of weekend ideas and start checking them off.",
+        "picks": [
+          {
+            "label": "Spin the Wheel",
+            "href": "tools/spin-wheel.html"
+          },
+          {
+            "label": "Fun Weekend Ideas",
+            "href": "ideas/fun-weekend-ideas.html"
+          },
+          {
+            "label": "Fun Things to Do With Friends",
+            "href": "ideas/fun-things-to-do-with-friends.html"
+          }
+        ]
+      },
+      "maker": {
+        "name": "The Maker",
+        "emoji": "🎨",
+        "text": "Hand you a blank page, a pile of supplies or a simple idea, and you will turn it into something. Your fun comes from creating: drawing, building, baking, rearranging or inventing new rules for an old game. You enjoy the process as much as the finished result, and you often spot possibilities others miss. Start a project at home today, then give your eye for patterns a workout between creative bursts.",
+        "picks": [
+          {
+            "label": "Fun Things to Do at Home",
+            "href": "ideas/fun-things-to-do-at-home.html"
+          },
+          {
+            "label": "Pattern Echo",
+            "href": "play/pattern-echo.html"
+          },
+          {
+            "label": "Tile Merge",
+            "href": "play/tile-merge.html"
+          }
+        ]
+      },
+      "socializer": {
+        "name": "The Socializer",
+        "emoji": "🎉",
+        "text": "Fun, for you, is always better shared. You light up around people, love a lively conversation and are usually the one who gets everyone laughing. Game nights, group outings and silly party games are your natural habitat, and you have a gift for making newcomers feel welcome. Keep a few crowd-pleasing games ready so your next get-together can kick off the moment friends walk through the door.",
+        "picks": [
+          {
+            "label": "Game Night Ideas",
+            "href": "ideas/game-night-ideas.html"
+          },
+          {
+            "label": "Would You Rather",
+            "href": "tools/would-you-rather.html"
+          },
+          {
+            "label": "Charades Generator",
+            "href": "tools/charades-generator.html"
+          }
+        ]
+      },
+      "competitor": {
+        "name": "The Competitor",
+        "emoji": "🏆",
+        "text": "You love a challenge, and you love it even more when someone is keeping score. Whether you are racing a timer, chasing a personal best or demanding a friendly rematch, a little competition brings out your energy and focus. You win with a grin, lose with a cheerful \"one more round,\" and push everyone around you to have more fun. Test your reflexes, challenge a friend and see how high you can climb.",
+        "picks": [
+          {
+            "label": "Reaction Time Test",
+            "href": "play/reaction-time.html"
+          },
+          {
+            "label": "Four in a Row",
+            "href": "play/four-in-a-row.html"
+          },
+          {
+            "label": "Contests",
+            "href": "contests.html"
+          }
+        ]
+      },
+      "chiller": {
+        "name": "The Chiller",
+        "emoji": "😌",
+        "text": "You know that fun does not have to be loud to be great. Your ideal day has room to breathe: comfy clothes, a warm drink, a relaxing game and nowhere you need to be. You are the calm center your friends love to unwind with, and you have a real talent for enjoying small moments. Settle in with a gentle memory game, browse some surprising facts or let a button choose your next easygoing activity.",
+        "picks": [
+          {
+            "label": "Memory Match",
+            "href": "play/memory-match.html"
+          },
+          {
+            "label": "Random Fun Facts",
+            "href": "facts/random-fun-facts.html"
+          },
+          {
+            "label": "Bored Button",
+            "href": "tools/bored-button.html"
+          }
+        ]
+      }
+    },
+    "questions": [
+      {
+        "q": "It's a free Saturday morning. What do you do first?",
+        "options": [
+          {
+            "t": "Text friends to see who's free to hang out",
+            "r": "socializer"
+          },
+          {
+            "t": "Tackle a brain teaser with breakfast",
+            "r": "thinker"
+          },
+          {
+            "t": "Sleep in, then enjoy a slow, cozy breakfast",
+            "r": "chiller"
+          },
+          {
+            "t": "Head somewhere you've never been before",
+            "r": "adventurer"
+          }
+        ]
+      },
+      {
+        "q": "At game night, which role do you usually end up with?",
+        "options": [
+          {
+            "t": "The strategist quietly planning three moves ahead",
+            "r": "thinker"
+          },
+          {
+            "t": "The one keeping score and fully planning to win",
+            "r": "competitor"
+          },
+          {
+            "t": "The one pushing to try a game nobody has played",
+            "r": "adventurer"
+          },
+          {
+            "t": "The one inventing house rules and custom cards",
+            "r": "maker"
+          }
+        ]
+      },
+      {
+        "q": "Your ideal birthday celebration is…",
+        "options": [
+          {
+            "t": "A themed party you decorated yourself",
+            "r": "maker"
+          },
+          {
+            "t": "A relaxed day with comfort food and a favorite movie",
+            "r": "chiller"
+          },
+          {
+            "t": "A mini golf or bowling showdown with a trophy for the winner",
+            "r": "competitor"
+          },
+          {
+            "t": "A big party with everyone you know",
+            "r": "socializer"
+          }
+        ]
+      },
+      {
+        "q": "Pick a superpower:",
+        "options": [
+          {
+            "t": "Teleporting anywhere in the world",
+            "r": "adventurer"
+          },
+          {
+            "t": "Speaking every language on Earth",
+            "r": "socializer"
+          },
+          {
+            "t": "Instantly solving any puzzle",
+            "r": "thinker"
+          },
+          {
+            "t": "Pausing time for the perfect nap",
+            "r": "chiller"
+          }
+        ]
+      },
+      {
+        "q": "Which club or class sounds the most fun?",
+        "options": [
+          {
+            "t": "Math club or the science fair",
+            "r": "thinker"
+          },
+          {
+            "t": "Art, woodworking or cooking class",
+            "r": "maker"
+          },
+          {
+            "t": "An outdoor club that goes on field trips",
+            "r": "adventurer"
+          },
+          {
+            "t": "A sports team or the debate squad",
+            "r": "competitor"
+          }
+        ]
+      },
+      {
+        "q": "A rainy day cancels your plans. You…",
+        "options": [
+          {
+            "t": "Challenge someone to a rematch of your favorite game",
+            "r": "competitor"
+          },
+          {
+            "t": "Invite friends over for snacks and board games",
+            "r": "socializer"
+          },
+          {
+            "t": "Start a craft, baking or building project",
+            "r": "maker"
+          },
+          {
+            "t": "Grab a blanket and enjoy the sound of the rain",
+            "r": "chiller"
+          }
+        ]
+      },
+      {
+        "q": "Which vacation souvenir would you treasure most?",
+        "options": [
+          {
+            "t": "A seashell from the beach where you lounged all day",
+            "r": "chiller"
+          },
+          {
+            "t": "A photo from the top of a tough mountain trail",
+            "r": "adventurer"
+          },
+          {
+            "t": "A group selfie with new friends you met",
+            "r": "socializer"
+          },
+          {
+            "t": "A book about the history of the place",
+            "r": "thinker"
+          }
+        ]
+      },
+      {
+        "q": "What kind of challenge do you enjoy most?",
+        "options": [
+          {
+            "t": "Beating your own personal best",
+            "r": "competitor"
+          },
+          {
+            "t": "Cracking a tricky riddle",
+            "r": "thinker"
+          },
+          {
+            "t": "Turning a blank page into something new",
+            "r": "maker"
+          },
+          {
+            "t": "Trying something you've never done before",
+            "r": "adventurer"
+          }
+        ]
+      },
+      {
+        "q": "Your friends would most likely describe you as…",
+        "options": [
+          {
+            "t": "The creative one with clever ideas",
+            "r": "maker"
+          },
+          {
+            "t": "The life of the party",
+            "r": "socializer"
+          },
+          {
+            "t": "The one who never turns down a friendly challenge",
+            "r": "competitor"
+          },
+          {
+            "t": "The calm one everyone relaxes around",
+            "r": "chiller"
+          }
+        ]
+      },
+      {
+        "q": "The perfect evening ends with…",
+        "options": [
+          {
+            "t": "A warm drink and a good show",
+            "r": "chiller"
+          },
+          {
+            "t": "A victory lap after winning game night",
+            "r": "competitor"
+          },
+          {
+            "t": "Showing off something you built or made",
+            "r": "maker"
+          },
+          {
+            "t": "Laughing with friends until it's way too late",
+            "r": "socializer"
+          }
+        ]
+      }
+    ]
+  }
+}
