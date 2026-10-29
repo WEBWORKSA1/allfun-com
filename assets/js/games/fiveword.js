@@ -116,9 +116,10 @@
       AF.share((mode === "daily" ? "AllFun FiveWord #" + dayNo : "AllFun FiveWord practice") + " " + (won ? guesses.length : "X") + "/6\n" + grid + "\n");
     }
   });
-  fetch(AF.root + "assets/data/words5.json").then(function (r) { return r.json(); }).then(function (d) {
-    for (var i = 0; i < d.answers.length; i += 5) ANS.push(d.answers.substr(i, 5));
-    VALID = new Set(); for (i = 0; i < d.valid.length; i += 5) VALID.add(d.valid.substr(i, 5));
+  function words(t) { return t.split("\n").filter(function (l) { return l && l.charAt(0) !== "#"; }).join(" ").split(/\s+/).filter(function (w) { return /^[a-z]{5}$/.test(w); }); }
+  function get(u) { return fetch(AF.root + "assets/data/" + u).then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); }); }
+  Promise.all([get("answers5.txt"), get("valid5.txt")]).then(function (d) {
+    ANS = words(d[0]); VALID = new Set(words(d[1]).concat(ANS));
     showStats(); start("daily");
   }).catch(function () { say("Couldn't load the word list. Refresh to try again."); });
 })();
