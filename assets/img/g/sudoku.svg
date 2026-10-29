@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+<circle cx="28" cy="28" r="6" fill="#FFFFFF" fill-opacity=".55"/>
+<circle cx="296" cy="176" r="9" fill="#FFFFFF" fill-opacity=".45"/>
+<path d="M292.0 21.0 L294.8 27.2 L301.0 30.0 L294.8 32.8 L292.0 39.0 L289.2 32.8 L283.0 30.0 L289.2 27.2Z" fill="#FFFFFF" fill-opacity=".6"/>
+<rect x="95" y="25" width="150" height="150" rx="12" fill="#FFFFFF" stroke="#1F1A4D" stroke-width="4"/>
+<line x1="145" y1="25" x2="145" y2="175" stroke="#1F1A4D" stroke-width="4"/>
+<line x1="95" y1="75" x2="245" y2="75" stroke="#1F1A4D" stroke-width="4"/>
+<line x1="195" y1="25" x2="195" y2="175" stroke="#1F1A4D" stroke-width="4"/>
+<line x1="95" y1="125" x2="245" y2="125" stroke="#1F1A4D" stroke-width="4"/>
+<text x="120" y="50" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="170" y="100" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="220" y="50" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">8</text>
+<text x="120" y="150" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="220" y="150" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">9</text>
+<text x="170" y="50" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">
+</text>
+<text x="120" y="100" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">7</text>
+<rect x="145" y="75" width="50" height="50" rx="0" fill="#FFC93C" stroke="#1F1A4D" stroke-width="4"/>
+<text x="170" y="100" font-family="Bricolage Grotesque,Arial Rounded MT Bold,Arial,sans-serif" font-weight="800" font-size="30" fill="#1F1A4D" text-anchor="middle" dominant-baseline="central">4</text>
+</svg>

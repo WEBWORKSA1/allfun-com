@@ -114,7 +114,7 @@ Core JS (assets/js/main.js): theme toggle, mobile menu, "Surprise me" random pag
 (essential-only requests non-personalized ads), multi-step forms, AJAX form relay to FormSubmit with
 honeypot, redirect-on-success, lite YouTube embeds (no third-party load until click), localStorage
 helpers, seeded RNG for daily content, streak tracking, share (Web Share API / clipboard).
-Generate sitemap.xml, robots.txt, ads.txt, site.webmanifest and favicon; keep generated files out of git.
+Generate sitemap.xml, robots.txt, ads.txt, site.webmanifest, favicon, SVG share image and _config.yml (excludes sources and docs from the published site).
 ```
 
 ### Phase 4 — Original games
@@ -182,9 +182,8 @@ indexable page; Lighthouse-style checks for contrast, focus and tap targets.
 
 ### Phase 10 — Deploy and launch
 ```
-Push sources to WEBWORKSA1/allFun-com (main). Commit only sources; a GitHub Actions workflow
-(.github/workflows/deploy.yml) runs the generator, renders PNG share image/icons and force-pushes the built
-site to the gh-pages branch. Pages serves gh-pages: Settings → Pages → Deploy from a branch → gh-pages / root. Point DNS for allfun.com
+Run the generator, then push sources AND the generated site to WEBWORKSA1/allFun-com (main, repo root).
+Enable Pages: Settings → Pages → Deploy from a branch → main / (root). Point DNS for allfun.com
 to GitHub Pages (A records 185.199.108-111.153 + www CNAME
 webworksa1.github.io), set Custom domain to allfun.com in Settings → Pages, enforce HTTPS. Verify https://allfun.com/ads.txt.
 Submit sitemap in Google Search Console. Apply in AdSense with the site allfun.com; enable Auto ads and
