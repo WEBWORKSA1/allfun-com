@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /kit.html
+Disallow: /thanks.html
+
+Sitemap: https://allfun.com/sitemap.xml
