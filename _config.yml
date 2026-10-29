@@ -1,0 +1,9 @@
+# GitHub Pages: publish the generated site; keep sources and docs out of it
+exclude:
+  - README.md
+  - PROMPTS.md
+  - RESEARCH.md
+  - _build
+  - .gitignore
+include:
+  - ads.txt
