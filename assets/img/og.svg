@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#EEF0FF"/>
+<circle cx="1024" cy="204" r="334" fill="#1F1A4D"/>
+<path d="M1010 190 L1010.0 -140.0 A330 330 0 0 1 1243.3 -43.3 Z" fill="#FFC93C" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L1243.3 -43.3 A330 330 0 0 1 1340.0 190.0 Z" fill="#5B95FF" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L1340.0 190.0 A330 330 0 0 1 1243.3 423.3 Z" fill="#FF5C8A" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L1243.3 423.3 A330 330 0 0 1 1010.0 520.0 Z" fill="#22C7A9" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L1010.0 520.0 A330 330 0 0 1 776.7 423.3 Z" fill="#B9A6FF" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L776.7 423.3 A330 330 0 0 1 680.0 190.0 Z" fill="#FF9F45" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L680.0 190.0 A330 330 0 0 1 776.7 -43.3 Z" fill="#7FD8FF" stroke="#1F1A4D" stroke-width="4"/>
+<path d="M1010 190 L776.7 -43.3 A330 330 0 0 1 1010.0 -140.0 Z" fill="#FF8FB1" stroke="#1F1A4D" stroke-width="4"/>
+<circle cx="1010" cy="190" r="330" fill="none" stroke="#1F1A4D" stroke-width="8"/>
+<g transform="translate(78 78) scale(1.24)">
+<path d="M50.0 3.0 L60.1 15.5 L75.4 10.5 L77.2 26.4 L92.8 30.5 L85.6 44.9 L96.5 56.7 L82.7 65.0 L85.5 80.8 L69.5 80.3 L63.2 95.1 L50.0 86.0 L36.8 95.1 L30.5 80.3 L14.5 80.8 L17.3 65.0 L3.5 56.7 L14.4 44.9 L7.2 30.5 L22.8 26.4 L24.6 10.5 L39.9 15.5Z" fill="#FFC93C" stroke="#1F1A4D" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="39" cy="45" r="5" fill="#1F1A4D"/>
+<circle cx="61" cy="45" r="5" fill="#1F1A4D"/>
+<path d="M36 58 Q50 72 64 58" fill="none" stroke="#1F1A4D" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="222" y="172" font-family="DejaVu Sans, Inter, Arial, sans-serif" font-weight="bold" font-size="92" fill="#1F1A4D" letter-spacing="-3">All<tspan fill="#FF5C8A">Fun</tspan>
+</text>
+<text font-family="DejaVu Sans, Inter, Arial, sans-serif" font-weight="bold" font-size="62" fill="#1F1A4D" letter-spacing="-2">
+<tspan x="80" y="330">All the fun.</tspan>
+<tspan x="80" y="400">None of the</tspan>
+<tspan x="80" y="470">downloads.</tspan>
+</text>
+<text x="80" y="560" font-family="DejaVu Sans, Inter, Arial, sans-serif" font-size="30" fill="#4F4A80">Free games · Daily puzzles · Quizzes · Party tools</text>
+</svg>
