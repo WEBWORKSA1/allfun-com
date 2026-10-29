@@ -129,7 +129,7 @@ def write_game_art(base, slug):
     d = os.path.join(base, "assets", "img", "g"); os.makedirs(d, exist_ok=True)
     deco = f'<circle cx="28" cy="28" r="6" fill="{W}" fill-opacity=".55"/><circle cx="296" cy="176" r="9" fill="{W}" fill-opacity=".45"/><path d="{burst(292, 30, 9, 4, 4)}" fill="{W}" fill-opacity=".6"/>'
     svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">{deco}{ARTS[slug]()}</svg>'
-    open(os.path.join(d, slug + ".svg"), "w", encoding="utf-8").write(svg)
+    open(os.path.join(d, slug + ".svg"), "w", encoding="utf-8").write(svg.replace("><", ">\n<") + "\n")
 
 def _logo(x, y, s):
     k = s / 100.0
