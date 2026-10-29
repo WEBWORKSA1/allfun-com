@@ -18,7 +18,18 @@ ALLPAGES = []         # (path, title, section)
 
 esc = lambda s: html.escape(str(s), quote=True)
 
+BLOCK = re.compile(r"(?=<(?:div|section|article|aside|nav|header|footer|main|ul|ol|li|p|h[1-6]|details|summary|form|fieldset|label|option|select|textarea|table|tr|thead|tbody|button|input|figure|dl|dt|dd|a class=\"(?:tile|chip|btn))[\s>])")
+def wrap_long(text, limit=400):
+    out = []
+    for line in text.split("\n"):
+        if len(line) <= limit or "<textarea" in line and "</textarea>" not in line:
+            out.append(line); continue
+        out.extend(p for p in BLOCK.split(line) if p != "")
+    return "\n".join(out)
+
 def write(path, content):
+    if path.endswith(".html"): content = wrap_long(content)
+    if path.endswith(".svg"): content = content.replace("><", ">\n<").rstrip("\n") + "\n"
     full = os.path.join(BASE, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
     with open(full, "w", encoding="utf-8") as f:
@@ -92,9 +103,9 @@ def render(path, title, desc, body, active="", scripts=(), css=(), noindex=False
     r = rootof(path)
     t = full_title or f"{title} | AllFun"
     graph = [{"@type": "WebSite", "@id": SITE_URL + "/#site", "name": "AllFun", "url": SITE_URL + "/"},
-             {"@type": "Organization", "@id": SITE_URL + "/#org", "name": "AllFun", "url": SITE_URL + "/", "logo": SITE_URL + "/assets/img/icon-512.png"}]
+             {"@type": "Organization", "@id": SITE_URL + "/#org", "name": "AllFun", "url": SITE_URL + "/", "logo": SITE_URL + "/assets/img/icon.svg"}]
     if ld: graph += ld if isinstance(ld, list) else [ld]
-    ldj = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False).replace("</", "<\\/")
+    ldj = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1).replace("</", "<\\/")
     css_tags = "".join(f'<link rel="stylesheet" href="{r}assets/css/{c}">' for c in css)
     js_tags = "".join(f'<script src="{r}assets/js/{s}"></script>' for s in scripts)
     robots = "noindex,follow" if noindex else "index,follow,max-image-preview:large"
@@ -107,10 +118,10 @@ def render(path, title, desc, body, active="", scripts=(), css=(), noindex=False
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{canon(path)}">
-<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="AllFun"><meta property="og:title" content="{esc(t)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon(path)}"><meta property="og:image" content="{SITE_URL}/assets/img/og.png">
+<meta property="og:type" content="{og_type}"><meta property="og:site_name" content="AllFun"><meta property="og:title" content="{esc(t)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:url" content="{canon(path)}"><meta property="og:image" content="{SITE_URL}/assets/img/og.svg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1F1A4D">
-<link rel="icon" href="{r}favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{r}assets/img/icon-180.png"><link rel="manifest" href="{r}site.webmanifest">
+<link rel="icon" href="{r}favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{r}assets/img/icon.svg"><link rel="manifest" href="{r}site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&amp;family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,600..800&amp;display=swap">
 <link rel="stylesheet" href="{r}assets/css/site.css">{css_tags}
@@ -237,15 +248,19 @@ def share_row(text):
 
 # ---------------------------------------------------------------- FiveWord word lists
 def build_words():
-    lines = [l for l in open(os.path.join(SRC, "data", "answers5.txt"), encoding="utf-8") if not l.startswith("#")]
-    answers = [w for l in lines for w in l.split() if len(w) == 5 and w.isalpha()]
+    src = open(os.path.join(SRC, "data", "answers5.txt"), encoding="utf-8").read()
+    answers = [w for l in src.splitlines() if not l.startswith("#") for w in l.split() if len(w) == 5 and w.isalpha()]
     valid = set(answers)
     try:
         from wordfreq import top_n_list
         valid |= {w for w in top_n_list("en", 80000) if len(w) == 5 and w.isalpha() and w.isascii() and w.islower()}
     except Exception as e:
-        print("wordfreq unavailable, using answers as the guess list:", e)
-    json.dump({"answers": "".join(answers), "valid": "".join(sorted(valid))}, open(os.path.join(BASE, "assets", "data", "words5.json"), "w"), separators=(",", ":"))
+        print("wordfreq unavailable, keeping the existing guess list:", e)
+        vp = os.path.join(BASE, "assets", "data", "valid5.txt")
+        if os.path.exists(vp): valid |= {w for l in open(vp, encoding="utf-8") if not l.startswith("#") for w in l.split()}
+    write("assets/data/answers5.txt", src)
+    v = sorted(valid)
+    write("assets/data/valid5.txt", "# FiveWord accepted guesses\n" + "\n".join(" ".join(v[i:i + 12]) for i in range(0, len(v), 12)) + "\n")
     return len(answers), len(valid)
 print("words:", build_words())
 
@@ -290,7 +305,7 @@ def build_article(meta, body, folder, section, cls):
 {share_row(meta["title"])}
 </article>{rail(r, meta.get("cta", "play"), rel_html)}</div>'''
     ld = [{"@type": "Article", "headline": meta["title"], "description": meta.get("description", ""), "datePublished": UPDATED, "dateModified": UPDATED,
-           "author": {"@type": "Organization", "name": "AllFun editors"}, "publisher": {"@id": SITE_URL + "/#org"}, "mainEntityOfPage": canon(path), "image": SITE_URL + "/assets/img/og.png"},
+           "author": {"@type": "Organization", "name": "AllFun editors"}, "publisher": {"@id": SITE_URL + "/#org"}, "mainEntityOfPage": canon(path), "image": SITE_URL + "/assets/img/og.svg"},
           crumb_ld([(label, hub), (meta["title"], None)], path)]
     if faq: ld.append(faq_ld(faq))
     render(path, meta["title"], meta.get("description", ""), body_html, active=section, ld=ld, priority="0.7", og_type="article")
@@ -298,7 +313,7 @@ def build_article(meta, body, folder, section, cls):
 for m, b in GUIDES: build_article(m, b, "ideas", "ideas", "c-ideas")
 for m, b in FACTS: build_article(m, b, "facts", "facts", "c-facts")
 if FACT_ITEMS:
-    json.dump(FACT_ITEMS, open(os.path.join(BASE, "assets", "data", "facts.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    write("assets/data/facts.json", "[\n" + ",\n".join(json.dumps(x, ensure_ascii=False) for x in FACT_ITEMS) + "\n]\n")
 
 # ---------------------------------------------------------------- games
 for g in GAMES: art.write_game_art(BASE, g["slug"])
@@ -458,12 +473,12 @@ p404 = os.path.join(BASE, "404.html"); s = open(p404, encoding="utf-8").read()
 s = s.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<script>document.write(\'<base href="\'+(location.hostname.slice(-10)===".github.io"?"/"+location.pathname.split("/")[1]+"/":"/")+\'">\');</script>', 1)
 open(p404, "w", encoding="utf-8").write(s)
 
-# share image + icon sources (PNGs are rendered in .github/workflows/deploy.yml)
-write("assets/img/src/og.svg", art.og_svg()); write("assets/img/src/icon.svg", art.icon_svg())
+# share image + app icon (SVG)
+write("assets/img/og.svg", art.og_svg()); write("assets/img/icon.svg", art.icon_svg())
 
-# favicon + manifest
+# favicon + manifest + GitHub Pages (Jekyll) config
+write("_config.yml", "# GitHub Pages: publish the generated site; keep sources and docs out of it\nexclude:\n  - README.md\n  - PROMPTS.md\n  - RESEARCH.md\n  - _build\n  - .gitignore\ninclude:\n  - ads.txt\n")
 write("favicon.svg", LOGO.replace('<svg viewBox="0 0 100 100" aria-hidden="true">', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">'))
 write("site.webmanifest", json.dumps({"name": "AllFun", "short_name": "AllFun", "description": "Free games, quizzes, puzzles and fun ideas.", "start_url": "./index.html", "display": "standalone",
-      "background_color": "#EEF0FF", "theme_color": "#1F1A4D", "icons": [{"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}, {"src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
-      {"src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, indent=1))
+      "background_color": "#EEF0FF", "theme_color": "#1F1A4D", "icons": [{"src": "favicon.svg", "sizes": "any", "type": "image/svg+xml"}, {"src": "assets/img/icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable"}]}, indent=1))
 print("pages:", len(ALLPAGES), "sitemap:", len(SITEMAP), "facts:", len(FACT_ITEMS))
